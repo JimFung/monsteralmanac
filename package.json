@@ -1,0 +1,21 @@
+{
+  "name": "5eMonsterAlmanac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "processor.js",
+  "scripts": {
+    "start": "NODE_ENV=prod node processor.js"
+  },
+  "keywords": [
+    "dnd",
+    "5e",
+    "5e monster"
+  ],
+  "author": "JimFung",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^6.7.1",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.6"
+  }
+}
